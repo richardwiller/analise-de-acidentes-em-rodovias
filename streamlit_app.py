@@ -131,7 +131,7 @@ def load_map():
         'ScatterplotLayer',
         data=map_data,
         get_position='[longitude, latitude]',
-        get_radius = 2000,
+        get_radius = 500,
         get_fill_color = [131, 201, 255],
         pickable = True
     )
